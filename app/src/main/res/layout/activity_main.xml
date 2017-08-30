@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jorgesys.opencamera.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        tools:context=".MainActivity">
+
+        <FrameLayout
+            android:id="@+id/camera_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00FF00">
+
+        </FrameLayout>
+
+
+        <ImageButton
+            android:id="@+id/imgClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:padding="20dp" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        tools:context=".MainActivity">
+
+
+
+        <FrameLayout
+            android:id="@+id/camera_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000FF">
+
+
+
+        </FrameLayout>
+
+
+        <ImageButton
+            android:id="@+id/imgClose2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:padding="20dp" />
+
+
+    </FrameLayout>
+</LinearLayout>
